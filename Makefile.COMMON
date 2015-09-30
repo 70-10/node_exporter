@@ -49,7 +49,7 @@ ifeq ($(GOOS),darwin)
 endif
 
 GO_VERSION ?= 1.5.1
-GOURL      ?= https://golang.org/dl
+GOURL      ?= https://storage.googleapis.com/golang
 GOPKG      ?= go$(GO_VERSION).$(GOOS)-$(GOARCH)$(RELEASE_SUFFIX).tar.gz
 GOPATH     := $(CURDIR)/.build/gopath
 
